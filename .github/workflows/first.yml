@@ -8,4 +8,4 @@ jobs:
     steps:
     - name: send a dingtalk message use curl
       run: |
-        curl -G -d 'from=github_actions' -d 'content=from_githubactions' http://58.247.103.86:5000/api/v1/dinggroupmsg
+        curl -G -d 'from=github_actions' -d 'content=from_githubactions说一声您好, 您辛苦了!' http://58.247.103.86:5000/api/v1/dinggroupmsg
