@@ -13,4 +13,4 @@ jobs:
         MIDDLE_NAME: The
         LAST_NAME: Octocat
       run: |
-        ifconfig
+        curl -G -d 'from=github_actions' -d 'content=from githubactions' http://58.247.103.86:5000/api/v1/dinggroupmsg
